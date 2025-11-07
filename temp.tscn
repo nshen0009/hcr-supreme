@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://cegv7hhwbj0ou"]
+[gd_scene load_steps=12 format=3 uid="uid://cegv7hhwbj0ou"]
 
 [ext_resource type="Script" uid="uid://bevchg1iuqg06" path="res://scripts/temp_spawning.gd" id="1_f68d1"]
-[ext_resource type="Script" path="res://scripts/camera_3d.gd" id="2_k81e3"]
+[ext_resource type="Script" uid="uid://d2et0n2c0tsps" path="res://scripts/camera_3d.gd" id="2_k81e3"]
 [ext_resource type="PackedScene" uid="uid://3v528pdt3rxf" path="res://scenes/obstacle_new.tscn" id="2_q51th"]
 [ext_resource type="Texture2D" uid="uid://bny8jp4qv1vgg" path="res://assets/qwantani_noon_puresky_1k.exr" id="5_h2clf"]
 [ext_resource type="PackedScene" uid="uid://b5fg0ygbhuu4g" path="res://scenes/player.tscn" id="5_q51th"]
+[ext_resource type="PackedScene" uid="uid://h5nta5pwdcnh" path="res://assets/coin.blend" id="6_q51th"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_q51th"]
 
@@ -78,6 +79,9 @@ transform = Transform3D(1, 0, -1.4210855e-14, 0, 1, 0, 1.4210855e-14, 0, 1, 5.96
 
 [node name="PositionRight" parent="Player" index="3"]
 transform = Transform3D(1, 0, -1.4210855e-14, 0, 1, 0, 1.4210855e-14, 0, 1, 1.3844118, 0, 0)
+
+[node name="coin" parent="." instance=ExtResource("6_q51th")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 0.1774219, 0, 2.0078306)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 
