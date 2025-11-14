@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dqodfippmqli1"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.534729, -0.62834835, -25.639717)
+size = Vector3(66.41498, 0.31451416, 79.94983)
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.99999654, 0, -0.0026354492, 0, 1, 0, 0.0026354492, 0, 0.99999654, 0.02387762, 0.9040239, 2.5944939)
+fov = 117.758354
