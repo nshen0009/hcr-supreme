@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 6d797f1 (pick up)
 [gd_scene load_steps=12 format=3 uid="uid://cegv7hhwbj0ou"]
 
 [ext_resource type="Script" uid="uid://bevchg1iuqg06" path="res://scripts/temp_spawning.gd" id="1_f68d1"]
@@ -107,6 +110,7 @@ transform = Transform3D(2.2, 0, 0, 0, 0.02019656, 2.1999073, 0, -2.1999073, 0.02
 shape = SubResource("CylinderShape3D_k81e3")
 debug_color = Color(0, 0, 0, 0.41960785)
 >>>>>>> parent of 3d0b2e5 (coin scene)
+<<<<<<< HEAD
 =======
 [gd_scene load_steps=2 format=3 uid="uid://cegv7hhwbj0ou"]
 
@@ -127,3 +131,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029400826, 0, 0.019253254)
 [node name="coin" parent="." instance=ExtResource("1_pippe")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029400826, 0, 0.019253254)
 >>>>>>> parent of c2ed677 (pick up)
+=======
+>>>>>>> parent of 6d797f1 (pick up)
